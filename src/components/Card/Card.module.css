@@ -1,0 +1,19 @@
+.card{
+    border: solid 1px #ccc;
+}
+
+.userInfo{
+    padding: 0 0 3px 15px;
+    display: grid;
+    gap: 7px;
+}
+
+.userIdentity{
+    display: flex;
+    gap: 5px;
+    font-weight: 800;
+}
+
+.userImage{
+    width: 100%;
+}

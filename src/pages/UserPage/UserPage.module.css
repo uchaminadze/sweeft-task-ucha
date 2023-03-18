@@ -1,0 +1,50 @@
+.userPage{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 20px 20px 20px;
+}
+
+
+.userIdentity{
+    width: 100%;
+}
+
+
+.userAddress, .userIdentity{
+    padding: 10px 0px 15px 15px;
+}
+
+
+label{
+    text-decoration: underline;
+}
+
+
+.userImage{
+    height: 200px;
+}
+
+
+@media (max-width: 1100px){
+    .userInfo{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .userImage{
+        width: 100%;
+    }
+
+    .userAddress{
+        width: 100%;
+    }
+}

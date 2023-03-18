@@ -1,0 +1,14 @@
+.usersList{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    margin: 10px auto;
+}
+
+
+.cardWrapper{
+    text-decoration: none;
+    color: black;
+}
